@@ -1,6 +1,7 @@
 /*Sidebar Style*/
 .sidebar {
-  background-color: #384047;
+  background-color: #303841
+;
   position: fixed;
   width: 120px;
   left: 0px;
@@ -24,7 +25,7 @@
 /*Body Style*/
 
 body {
-  background-color: #EBEBEB;
+  background-color: #EEEEEE;
   font-family: 'Open Sans', sans-serif;
   color: #585858;
   line-height: 25px;
@@ -32,7 +33,7 @@ body {
 }
 
 h1 {
-  color: #DD5555;
+  color: #00ADB5;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -49,7 +50,7 @@ a {
 
 a:hover {
   text-decoration: underline;
-  color: #DD5555;
+  color: #00ADB5;
 }
 
 .container {
@@ -99,7 +100,7 @@ a:hover {
 }
 
 .btn-red {
-  background-color: #DD5555;
+  background-color: #00ADB5;
   color: white;
   padding: 10px;
   border-radius: 4px;
@@ -125,3 +126,20 @@ a:hover {
 #margin-top-decrease {
   margin-top: 5px;
 }
+
+/*Album Style*/
+
+div.gallery {
+  margin: 10px;
+  border: 1px;
+}
+
+div.gallery img{
+  width: 150px;
+  height: 100px;
+}
+
+div.gallery:hover {
+  background-color: rgba(0,255,0,0.3);
+}
+
