@@ -1,7 +1,7 @@
 /*Sidebar Style*/
 .sidebar {
-  background-color: #303841
-;
+  /*background-color: #303841*/
+  /*background-image: url("images/background/space.jpg");*/
   position: fixed;
   width: 120px;
   left: 0px;
@@ -25,7 +25,9 @@
 /*Body Style*/
 
 body {
-  background-color: #EEEEEE;
+  /*background-color: #EEEEEE;*/
+  background-image: url("images/background/space.jpg");
+  opacity: 0.8;
   font-family: 'Open Sans', sans-serif;
   color: #585858;
   line-height: 25px;
@@ -117,6 +119,7 @@ a:hover {
 
 .pic-circle {
   border-radius: 50%;
+  border: 0.5px solid #BCBCBC;
 }
 
 #margin-bottom-decrease {
