@@ -1,3 +1,28 @@
+/*Sidebar Style*/
+.sidebar {
+  background-color: #384047;
+  position: fixed;
+  width: 120px;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+}
+
+.list-icons > li {
+  list-style: none;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.list-icons {
+  padding-left: 0;
+}
+
+
+/*Body Style*/
+
 body {
   background-color: #EBEBEB;
   font-family: 'Open Sans', sans-serif;
@@ -30,6 +55,10 @@ a:hover {
 .container {
   width: 600px;
   margin: 0 auto;
+}
+
+.content {
+  margin-left: 120px;
 }
 
 .box-white {
